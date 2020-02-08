@@ -29,7 +29,7 @@ function findOrAdd(rootNode, newNode) {
 }
 
 const max = nodeTree => {
-  let rootNode = node;
+  let rootNode = nodeTree;
   if (!rootNode.right) {
      return rootNode.data;    
   }
