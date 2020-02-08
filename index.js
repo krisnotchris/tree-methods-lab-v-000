@@ -28,14 +28,9 @@ function findOrAdd(rootNode, newNode) {
   return true;
 }
 
-const max = node => {
-  console.log(node)
-  let currentNode = node;
-  if (currentNode.right) {
-     max(currentNode.right)
-  } else {
-     currentNode.data;
-  }
+const max = nodeTree => {
+ let rootNode = nodeTree.data;
+ 
 }
 
 const min = tree => {
