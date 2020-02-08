@@ -29,6 +29,7 @@ function findOrAdd(rootNode, newNode) {
 }
 
 const max = node => {
+  console.log(node)
   let currentNode = node;
   if (currentNode.right) {
      max(currentNode.right)
