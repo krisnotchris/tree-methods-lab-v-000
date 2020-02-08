@@ -29,10 +29,11 @@ function findOrAdd(rootNode, newNode) {
 }
 
 const max = nodeTree => {
+  let largestNode = nodeTree.data;
   if (nodeTree.right) {
-    return max(nodeTree.right)
+    largestNode = max(nodeTree.right)
   }
-  return nodeTree.data
+  return largestNode.data
 // let rootNode = nodeTree.data;
 // if (rootNode.right) {
 //   return rootNode.right.data;
