@@ -36,3 +36,10 @@ function max(node) {
   return max(rootNode.right);
 }
 
+function min(node) {
+  let rootNode = node;
+  if (!rootNode.left) {
+    return rootNode.data;
+  }
+  return min(rootNode.left)
+}
