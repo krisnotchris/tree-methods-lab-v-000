@@ -31,9 +31,9 @@ function findOrAdd(rootNode, newNode) {
 const max = node => {
   let currentNode = node;
   if (currentNode.right) {
-    return max(currentNode.right)
+     max(currentNode.right)
   } else {
-    return currentNode.data;
+     currentNode.data;
   }
 }
 
