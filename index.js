@@ -40,8 +40,11 @@ const max = nodeTree => {
 // }
 }
 
-// {data: 5, left:
-//      {data: 3, left: null, right: null},
-//           right: {data: 7, left: null,
-//              right: {data: 9, left: null, right: null}
+// {data: 5, 
+left: {data: 3, left: null, right: null}, 
+right: {data: 7, left: null, 
+right: {data: 9, left: null, right: null}
+//              
+//      ,
+//          
 //                       }}
