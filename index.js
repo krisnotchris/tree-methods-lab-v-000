@@ -28,11 +28,11 @@ function findOrAdd(rootNode, newNode) {
   return true;
 }
 
-const max = node => {
+function max(node) {
   let rootNode = node;
   if (!rootNode.right) {
      return rootNode.data;    
   }
-  return max(rootNode.right)
+  return max(rootNode.right);
 }
 
